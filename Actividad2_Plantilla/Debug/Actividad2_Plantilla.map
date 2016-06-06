@@ -1,6 +1,6 @@
 Archive member included because of file (symbol)
 
-/home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+/home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
                               ./src/cr_startup_lpc13.o (SystemInit)
 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
                               ./src/cr_startup_lpc13.o (__main)
@@ -347,30 +347,30 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./Modules/Board/src/ssp.o
  .debug_macro   0x00000000       0x22 ./Modules/Board/src/ssp.o
  .debug_macro   0x00000000       0x2e ./Modules/Board/src/ssp.o
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .text          0x00000000        0x0 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .data          0x00000000        0x0 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .bss           0x00000000        0x0 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .group         0x00000000        0x8 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .text          0x00000000        0x0 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .data          0x00000000        0x0 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x00000000        0x0 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
  .text.SystemCoreClockUpdate
-                0x00000000       0xa0 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                0x00000000       0xa0 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
  .rodata.CSWTCH.7
-                0x00000000       0x40 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000       0x10 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000      0x12d /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000      0x5b2 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000       0x1c /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000       0x2e /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000       0x18 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000      0x7af /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x00000000      0x131 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                0x00000000       0x40 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000       0x10 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000      0x12d /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000       0x1c /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000       0x2e /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000       0x18 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000      0x7af /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00000000      0x131 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
  .text          0x00000000        0x0 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
  .data          0x00000000        0x0 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
  .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
@@ -625,7 +625,7 @@ LOAD ./Modules/cc2520/src/cc2520-task.o
 LOAD ./Modules/cc2520/src/cc2520.o
 LOAD ./Modules/Board/src/ledpul.o
 LOAD ./Modules/Board/src/ssp.o
-LOAD /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a
+LOAD /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a
 START GROUP
 LOAD /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a
 LOAD /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
@@ -774,7 +774,7 @@ END GROUP
                 0x000016c8       0x6c ./Modules/Board/src/ssp.o
                 0x000016c8                SSPSendReceive
  .text.SystemInit
-                0x00001734       0xac /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                0x00001734       0xac /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
                 0x00001734                SystemInit
  .text.__main   0x000017e0       0x14 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
                 0x000017e0                __main
@@ -964,7 +964,7 @@ END GROUP
  *(.ramfunc*)
  *(.data*)
  .data.SystemCoreClock
-                0x10000000        0x4 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                0x10000000        0x4 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
                 0x10000000                SystemCoreClock
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                _edata = .
@@ -1034,7 +1034,7 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .debug_info    0x000013a8      0x7f7 ./Modules/cc2520/src/cc2520.o
  .debug_info    0x00001b9f      0x3fa ./Modules/Board/src/ledpul.o
  .debug_info    0x00001f99      0xd52 ./Modules/Board/src/ssp.o
- .debug_info    0x00002ceb      0x4f2 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_info    0x00002ceb      0x4f2 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
 .debug_abbrev   0x00000000      0xd47
  .debug_abbrev  0x00000000      0x13f ./src/cr_startup_lpc13.o
@@ -1044,11 +1044,11 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .debug_abbrev  0x0000063a      0x1df ./Modules/cc2520/src/cc2520.o
  .debug_abbrev  0x00000819      0x1e1 ./Modules/Board/src/ledpul.o
  .debug_abbrev  0x000009fa      0x22d ./Modules/Board/src/ssp.o
- .debug_abbrev  0x00000c27      0x120 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_abbrev  0x00000c27      0x120 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
 .debug_loc      0x00000000      0x242
  .debug_loc     0x00000000      0x1be ./src/cr_startup_lpc13.o
- .debug_loc     0x000001be       0x84 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_loc     0x000001be       0x84 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
 .debug_aranges  0x00000000      0x258
  .debug_aranges
@@ -1066,7 +1066,7 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .debug_aranges
                 0x000001f8       0x38 ./Modules/Board/src/ssp.o
  .debug_aranges
-                0x00000230       0x28 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                0x00000230       0x28 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
 .debug_ranges   0x00000000      0x1d8
  .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc13.o
@@ -1076,7 +1076,7 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .debug_ranges  0x00000138       0x30 ./Modules/cc2520/src/cc2520.o
  .debug_ranges  0x00000168       0x30 ./Modules/Board/src/ledpul.o
  .debug_ranges  0x00000198       0x28 ./Modules/Board/src/ssp.o
- .debug_ranges  0x000001c0       0x18 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_ranges  0x000001c0       0x18 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
 .debug_macro    0x00000000     0x3abf
  .debug_macro   0x00000000       0x81 ./src/cr_startup_lpc13.o
@@ -1104,36 +1104,36 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .debug_macro   0x00002e37       0xef ./Modules/cc2520/src/cc2520.o
  .debug_macro   0x00002f26       0xef ./Modules/Board/src/ledpul.o
  .debug_macro   0x00003015       0xef ./Modules/Board/src/ssp.o
- .debug_macro   0x00003104      0x147 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
- .debug_macro   0x0000324b      0x874 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x00003104      0x147 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_macro   0x0000324b      0x874 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
-.debug_line     0x00000000     0x20dd
- .debug_line    0x00000000      0x22c ./src/cr_startup_lpc13.o
- .debug_line    0x0000022c      0x445 ./src/main.o
- .debug_line    0x00000671      0x606 ./Modules/cc2520/src/cc2520-mac.o
- .debug_line    0x00000c77      0x434 ./Modules/cc2520/src/cc2520-task.o
- .debug_line    0x000010ab      0x550 ./Modules/cc2520/src/cc2520.o
- .debug_line    0x000015fb      0x48f ./Modules/Board/src/ledpul.o
- .debug_line    0x00001a8a      0x481 ./Modules/Board/src/ssp.o
- .debug_line    0x00001f0b      0x1d2 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+.debug_line     0x00000000     0x1f7f
+ .debug_line    0x00000000      0x21e ./src/cr_startup_lpc13.o
+ .debug_line    0x0000021e      0x40d ./src/main.o
+ .debug_line    0x0000062b      0x5ce ./Modules/cc2520/src/cc2520-mac.o
+ .debug_line    0x00000bf9      0x3fc ./Modules/cc2520/src/cc2520-task.o
+ .debug_line    0x00000ff5      0x518 ./Modules/cc2520/src/cc2520.o
+ .debug_line    0x0000150d      0x457 ./Modules/Board/src/ledpul.o
+ .debug_line    0x00001964      0x449 ./Modules/Board/src/ssp.o
+ .debug_line    0x00001dad      0x1d2 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
-.debug_str      0x00000000     0xa965
- .debug_str     0x00000000     0x7426 ./src/cr_startup_lpc13.o
-                               0x74ad (size before relaxing)
- .debug_str     0x00007426     0x26cb ./src/main.o
-                               0x9937 (size before relaxing)
- .debug_str     0x00009af1      0x2fc ./Modules/cc2520/src/cc2520-mac.o
-                               0x976f (size before relaxing)
- .debug_str     0x00009ded       0xb9 ./Modules/cc2520/src/cc2520-task.o
-                               0x963d (size before relaxing)
- .debug_str     0x00009ea6      0x25a ./Modules/cc2520/src/cc2520.o
-                               0x96f5 (size before relaxing)
- .debug_str     0x0000a100       0x83 ./Modules/Board/src/ledpul.o
-                               0x9534 (size before relaxing)
- .debug_str     0x0000a183      0x357 ./Modules/Board/src/ssp.o
-                               0x9db1 (size before relaxing)
- .debug_str     0x0000a4da      0x48b /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
-                               0x790e (size before relaxing)
+.debug_str      0x00000000     0xa949
+ .debug_str     0x00000000     0x7418 ./src/cr_startup_lpc13.o
+                               0x749f (size before relaxing)
+ .debug_str     0x00007418     0x26cb ./src/main.o
+                               0x9929 (size before relaxing)
+ .debug_str     0x00009ae3      0x2fc ./Modules/cc2520/src/cc2520-mac.o
+                               0x9761 (size before relaxing)
+ .debug_str     0x00009ddf       0xb9 ./Modules/cc2520/src/cc2520-task.o
+                               0x962f (size before relaxing)
+ .debug_str     0x00009e98      0x25a ./Modules/cc2520/src/cc2520.o
+                               0x96e7 (size before relaxing)
+ .debug_str     0x0000a0f2       0x83 ./Modules/Board/src/ledpul.o
+                               0x9526 (size before relaxing)
+ .debug_str     0x0000a175      0x357 ./Modules/Board/src/ssp.o
+                               0x9da3 (size before relaxing)
+ .debug_str     0x0000a4cc      0x47d /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                               0x7900 (size before relaxing)
 
 .comment        0x00000000       0xe0
  .comment       0x00000000       0x70 ./src/cr_startup_lpc13.o
@@ -1144,7 +1144,7 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .comment       0x00000000       0x71 ./Modules/cc2520/src/cc2520.o
  .comment       0x00000000       0x71 ./Modules/Board/src/ledpul.o
  .comment       0x00000000       0x71 ./Modules/Board/src/ssp.o
- .comment       0x00000000       0x71 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .comment       0x00000000       0x71 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
  .comment       0x00000070       0x70 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(fpprintf.o)
@@ -1192,7 +1192,7 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .ARM.attributes
                 0x00000132       0x33 ./Modules/Board/src/ssp.o
  .ARM.attributes
-                0x00000165       0x33 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+                0x00000165       0x33 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
  .ARM.attributes
                 0x00000198       0x33 /usr/local/lpcxpresso_8.0.0_526/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libcr_semihost.a(_cr__main.o)
  .ARM.attributes
@@ -1276,4 +1276,4 @@ OUTPUT(Actividad2_Plantilla.axf elf32-littlearm)
  .debug_frame   0x00000454       0xd4 ./Modules/cc2520/src/cc2520.o
  .debug_frame   0x00000528       0xb4 ./Modules/Board/src/ledpul.o
  .debug_frame   0x000005dc       0xac ./Modules/Board/src/ssp.o
- .debug_frame   0x00000688       0x30 /home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_frame   0x00000688       0x30 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)

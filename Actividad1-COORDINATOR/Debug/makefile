@@ -31,7 +31,7 @@ all: Actividad1-COORDINATOR.axf
 Actividad1-COORDINATOR.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/patricio/Embebidos/Protocolos/Practica/ws-1343 hola mundo/CMSISv2p00_LPC13xx/Debug" -Xlinker -Map="Actividad1-COORDINATOR.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Actividad1-COORDINATOR_Debug.ld" -o "Actividad1-COORDINATOR.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug" -Xlinker -Map="Actividad1-COORDINATOR.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Actividad1-COORDINATOR_Debug.ld" -o "Actividad1-COORDINATOR.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
