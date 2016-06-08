@@ -20,7 +20,7 @@ C_DEPS += \
 Modules/Board/src/%.o: ../Modules/Board/src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C Compiler'
-	arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC13xx -D__USE_CMSIS_DSPLIB=CMSISv2p10_DSPLIB_CM3 -I"/home/patricio/Embebidos/Protocolos/protocolos_ws/Actividad1-DEVICE/src" -I"/home/patricio/Embebidos/Protocolos/protocolos_ws/Actividad1-DEVICE/Modules/Board/inc" -I"/home/patricio/Embebidos/Protocolos/protocolos_ws/Actividad1-DEVICE/Modules/cc2520/inc" -I"/home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC13xx -D__USE_CMSIS_DSPLIB=CMSISv2p10_DSPLIB_CM3 -I"/home/pato/Embebidos/Protocolos/protocolos_ws/Actividad1-DEVICE/src" -I"/home/pato/Embebidos/Protocolos/protocolos_ws/Actividad1-DEVICE/Modules/Board/inc" -I"/home/pato/Embebidos/Protocolos/protocolos_ws/Actividad1-DEVICE/Modules/cc2520/inc" -I"/home/pato/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

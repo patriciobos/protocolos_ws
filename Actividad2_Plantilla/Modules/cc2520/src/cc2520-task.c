@@ -23,7 +23,7 @@ void ccFrameForming(int ADDR_DEST, char *payload_to_transmit)
 
 	tx.seqn = 1;
 
-	ccFrameTx(tx);   // guarda la trama formada en el buffer del transceptor
+	ccFrameTx(tx);   // guarda la trama formada en el buffer de salida
 
 	return;
 }
@@ -86,6 +86,6 @@ void ccTask(){
 			}
 
 	}
-return;
+return;  	// Esta función no debe retornar
 }
 

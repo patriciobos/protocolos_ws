@@ -25,7 +25,7 @@ void ccFrameForming(int ADDR_DEST, char *payload_to_transmit)
 
 	tx.seqn = 1;
 
-	ccFrameTx(tx);   // guarda la trama formada en el buffer del transceptor
+	ccFrameTx(tx);   // guarda la trama formada en el buffer de salida
 
 	return;
 }
@@ -34,7 +34,7 @@ void ccTask(){
 
 	char tx_payload[128];
 	char tmp_buff[32];
-	uint8_t retries = 0;
+	volatile uint8_t retries = 0;
 
 	while(1)
 	{
@@ -91,7 +91,7 @@ void ccTask(){
 					{
 						sprintf(tmp_buff,"hola nodo %d",ADDR_LOCAL);
 						if (0 == strncmp(rx.payload,tmp_buff,11)){
-							ledFlash(1, 100);
+							ledFlash(2, 100);
 							curr_state = sendingAck;
 						}
 					}

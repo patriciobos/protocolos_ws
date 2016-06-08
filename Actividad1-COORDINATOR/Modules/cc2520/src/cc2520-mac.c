@@ -225,7 +225,7 @@ s8 ccFrameTx(frameData d)
 			break;
 	}
 
-	//aca iria el aux security header (no implementado aun...)
+	//TODO:aca iría el aux security header (no implementado aun...)
 
 	//si el payload no entra, error
 	if((i+d.pl_length+1) > 127) return -5;
@@ -258,7 +258,7 @@ s8 ccFrameRx(frameData * d)
 	i=4;
 	switch(macFCFGetDestAddrMode(d->fcf))
 	{
-		case MAC_ADDR_MODE_1_RESERVED: //este deberia filtrarse por hardware
+		case MAC_ADDR_MODE_1_RESERVED: // TODO: este debería filtrarse por hardware
 			return -2;
 		case MAC_ADDR_MODE_NO_PAN_ADDR:
 			break;
@@ -307,13 +307,13 @@ s8 ccFrameRx(frameData * d)
 			break;
 	}
 
-	//d->rssi = rxbuf[rxcont-2]-76; //ajusto segun hoja de datos (CC2520)
-	d->rssi = rxbuf[rxcont-2]-79; //ajusto segun hoja de datos (CC2520+CC2591 HGM)
-	//d->rssi = rxbuf[rxcont-2]-90; //ajusto segun hoja de datos (CC2520+CC2591 LGM)
+	//d->rssi = rxbuf[rxcont-2]-76; //ajusto según hoja de datos (CC2520)
+	d->rssi = rxbuf[rxcont-2]-79; //ajusto según hoja de datos (CC2520+CC2591 HGM)
+	//d->rssi = rxbuf[rxcont-2]-90; //ajusto según hoja de datos (CC2520+CC2591 LGM)
 
 	d->corr_crc = rxbuf[rxcont-1];
 
-	/*aca iria el aux security header (no implementado aun...)*/
+	/* TODO: acá iría el aux security header (no implementado aun...)*/
 
 	ccMemCpy(rxbuf, rxbuf+i, rxcont-i-2);
 

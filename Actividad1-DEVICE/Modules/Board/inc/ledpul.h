@@ -24,4 +24,11 @@ void ledFlash(u8 led, u8 ticks);
 
 extern int contled0;
 
+typedef enum {
+	LED0=0,
+	LED1,
+	LED2
+} led_t;
+
+
 #endif /* LEDPUL_H_ */

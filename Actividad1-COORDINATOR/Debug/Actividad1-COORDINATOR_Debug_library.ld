@@ -5,7 +5,7 @@
  * Generated linker script file for LPC1343
  * Created from library.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * LPCXpresso v8.0.0 [Build 526] [2015-11-23]  on 08/06/2016 00:15:25
+ * LPCXpresso v8.0.0 [Build 526] [2015-11-23]  on 08/06/2016 12:22:31
  */
 
 GROUP (
