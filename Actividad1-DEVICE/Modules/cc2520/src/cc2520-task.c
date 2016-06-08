@@ -11,7 +11,7 @@ extern int countdown_tx;
 
 State curr_state = idle;
 
-void frameForming(int ADDR_DEST, char *payload_to_transmit)
+void ccFrameForming(int ADDR_DEST, char *payload_to_transmit)
 {
 	tx.fcf = ccWrapperFCF(MAC_FRAME_TYPE_DATA, 0, 0, 0, 0, MAC_ADDR_MODE_SHORT, 0, MAC_ADDR_MODE_SHORT);
 	tx.src.shortAddr.panid = PANID_LOCAL;
@@ -49,7 +49,7 @@ void ccTask(){
 
 				sprintf(tx_payload,"dataRequest from device %d",ADDR_LOCAL);
 
-				frameForming(ADDR_COOR, tx_payload);
+				ccFrameForming(ADDR_COOR, tx_payload);
 
 				ccTx();
 
@@ -102,7 +102,7 @@ void ccTask(){
 
 				sprintf(tx_payload,"ack from device %d",ADDR_LOCAL);
 
-				frameForming(ADDR_COOR, tx_payload);
+				ccFrameForming(ADDR_COOR, tx_payload);
 
 				ccTx();
 

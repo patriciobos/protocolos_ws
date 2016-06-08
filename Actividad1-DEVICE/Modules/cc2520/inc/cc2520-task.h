@@ -34,6 +34,6 @@ frameData tx,rx;
 
 void ccTask(void);
 
-void frameForming(int ADDR_DEST, char *payload_to_transmit);
+void ccFrameForming(int ADDR_DEST, char *payload_to_transmit);
 
 #endif /* CC2520_TASK_H_ */

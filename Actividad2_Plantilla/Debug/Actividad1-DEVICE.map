@@ -735,9 +735,9 @@ END GROUP
  .text.ccMemCpy
                 0x00000ba0       0x3c ./Modules/cc2520/src/cc2520-mac.o
                 0x00000ba0                ccMemCpy
- .text.frameForming
+ .text.ccFrameForming
                 0x00000bdc       0x8c ./Modules/cc2520/src/cc2520-task.o
-                0x00000bdc                frameForming
+                0x00000bdc                ccFrameForming
  .text.ccTask   0x00000c68      0x160 ./Modules/cc2520/src/cc2520-task.o
                 0x00000c68                ccTask
  .text.ccCmd    0x00000dc8      0x3cc ./Modules/cc2520/src/cc2520.o

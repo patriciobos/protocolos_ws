@@ -13,7 +13,7 @@ State curr_state = idle;
 
 uint8_t addr_src;
 
-void frameForming(int ADDR_DEST, char *payload_to_transmit)
+void ccFrameForming(int ADDR_DEST, char *payload_to_transmit)
 {
 	tx.fcf = ccWrapperFCF(MAC_FRAME_TYPE_DATA, 0, 0, 0, 0, MAC_ADDR_MODE_SHORT, 0, MAC_ADDR_MODE_SHORT);
 	tx.src.shortAddr.panid = PANID_LOCAL;
@@ -63,7 +63,7 @@ void ccTask(){
 
 			sprintf(tx_payload,"ACK");
 
-			frameForming(addr_src, tx_payload);
+			ccFrameForming(addr_src, tx_payload);
 
 			ccTx();
 
@@ -77,7 +77,7 @@ void ccTask(){
 
 			sprintf(tx_payload,"hola nodo %d",addr_src);
 
-			frameForming(addr_src, tx_payload);
+			ccFrameForming(addr_src, tx_payload);
 
 			ccTx();
 

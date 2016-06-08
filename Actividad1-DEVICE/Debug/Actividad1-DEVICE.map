@@ -735,9 +735,9 @@ END GROUP
  .text.ccMemCpy
                 0x00000ba0       0x3c ./Modules/cc2520/src/cc2520-mac.o
                 0x00000ba0                ccMemCpy
- .text.frameForming
+ .text.ccFrameForming
                 0x00000bdc       0x8c ./Modules/cc2520/src/cc2520-task.o
-                0x00000bdc                frameForming
+                0x00000bdc                ccFrameForming
  .text.ccTask   0x00000c68      0x160 ./Modules/cc2520/src/cc2520-task.o
                 0x00000c68                ccTask
  .text.ccCmd    0x00000dc8      0x3cc ./Modules/cc2520/src/cc2520.o
@@ -1117,22 +1117,22 @@ OUTPUT(Actividad1-DEVICE.axf elf32-littlearm)
  .debug_line    0x00001933      0x440 ./Modules/Board/src/ssp.o
  .debug_line    0x00001d73      0x1d2 /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
 
-.debug_str      0x00000000     0xa94f
+.debug_str      0x00000000     0xa951
  .debug_str     0x00000000     0x7415 ./src/cr_startup_lpc13.o
                                0x749c (size before relaxing)
  .debug_str     0x00007415     0x273c ./src/main.o
                                0x9997 (size before relaxing)
  .debug_str     0x00009b51      0x2fc ./Modules/cc2520/src/cc2520-mac.o
                                0x975e (size before relaxing)
- .debug_str     0x00009e4d       0x72 ./Modules/cc2520/src/cc2520-task.o
-                               0x9642 (size before relaxing)
- .debug_str     0x00009ebf      0x25a ./Modules/cc2520/src/cc2520.o
+ .debug_str     0x00009e4d       0x74 ./Modules/cc2520/src/cc2520-task.o
+                               0x9644 (size before relaxing)
+ .debug_str     0x00009ec1      0x25a ./Modules/cc2520/src/cc2520.o
                                0x96e4 (size before relaxing)
- .debug_str     0x0000a119       0x62 ./Modules/Board/src/ledpul.o
+ .debug_str     0x0000a11b       0x62 ./Modules/Board/src/ledpul.o
                                0x9516 (size before relaxing)
- .debug_str     0x0000a17b      0x357 ./Modules/Board/src/ssp.o
+ .debug_str     0x0000a17d      0x357 ./Modules/Board/src/ssp.o
                                0x9da0 (size before relaxing)
- .debug_str     0x0000a4d2      0x47d /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
+ .debug_str     0x0000a4d4      0x47d /home/patricio/Embebidos/Protocolos/protocolos_ws/CMSISv2p00_LPC13xx/Debug/libCMSISv2p00_LPC13xx.a(system_LPC13xx.o)
                                0x7900 (size before relaxing)
 
 .comment        0x00000000       0xe0

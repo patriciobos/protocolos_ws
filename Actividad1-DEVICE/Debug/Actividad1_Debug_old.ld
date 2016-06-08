@@ -4,7 +4,7 @@
  * (c) NXP Semiconductors 2013-2016
  * Generated linker script file for LPC1343
  * Created from generic_c.ld (8.0.0 ())
- * By LPCXpresso v8.0.0 [Build 526] [2015-11-23]  on Mon Jun 06 00:13:53 ART 2016
+ * By LPCXpresso v8.0.0 [Build 526] [2015-11-23]  on Wed Jun 08 00:15:25 ART 2016
  */
 
 
